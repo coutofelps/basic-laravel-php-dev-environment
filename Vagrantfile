@@ -9,10 +9,6 @@
 Vagrant.configure("2") do |config|
   config.vm.box_download_insecure = true
 
-  # VBGUEST # config.vbguest.auto_update = false
-  # VBGUEST # config.vbguest.no_remote = true
-  # VBGUEST # config.vbguest.iso_path = "C:/Program Files/Oracle/VirtualBox/VBoxGuestAdditions.iso"
-
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
@@ -63,7 +59,7 @@ Vagrant.configure("2") do |config|
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   config.vm.provider "virtualbox" do |vb|
-  vb.name = "VirtualBox Machine"
+  vb.name = "Basic Laravel and PHP Development Environment"
 
   # Display the VirtualBox GUI when booting the machine
   # vb.gui = true
