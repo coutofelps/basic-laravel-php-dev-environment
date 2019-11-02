@@ -38,9 +38,9 @@ vagrant ssh
 
 ## Authors
 
-* **Marco Coutos**.
+* **Marcos Couto**.
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/marcoscouto10/basic-laravel-php-dev-environment) who participated in this project.
 
 ## License
 
