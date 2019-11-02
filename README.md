@@ -4,7 +4,8 @@ A basic development environment to use with PHP, MySQL, Laravel and others.
 
 ## Getting Started
 
-These instructions will get you a copy of the VirtualBox develop environment up and running on your local machine.
+These instructions will get you a copy of the VirtualBox development environment to set up and running on your local machine.
+It is highly recommended for project developers who have the same environment on distincts machines.
 
 ### Prerequisites
 
