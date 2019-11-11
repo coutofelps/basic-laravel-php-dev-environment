@@ -72,7 +72,17 @@ install_mysql()
         echo "MySQL is already installed!"
     fi
 }
- 
+
+install_nodejs()
+{
+    sudo apt-get install -y nodejs
+}
+
+install_npm()
+{
+    sudo apt-get install -y npm
+}
+
 echo "###########################"
 echo "Installing common packages..."
 echo "###########################"
@@ -89,6 +99,18 @@ echo "###########################"
 echo "Installing Composer..."
 echo "###########################"
 install_composer
+echo "###########################"
+
+echo "###########################"
+echo "Installing Node.js..."
+echo "###########################"
+install_nodejs
+echo "###########################"
+
+echo "###########################"
+echo "Installing NPM..."
+echo "###########################"
+install_npm
 echo "###########################"
 
 echo "###########################"
