@@ -1,6 +1,6 @@
 # Basic Laravel/PHP Development Environment
 
-A basic development environment to use with PHP, MySQL, Laravel and others.
+A basic development environment to use with PHP, MySQL, Laravel, Node.js and NPM.
 
 ## Getting Started
 
