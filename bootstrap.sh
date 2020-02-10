@@ -21,14 +21,21 @@ install_php_packages()
         sudo apt-get install software-properties-common
         sudo add-apt-repository ppa:ondrej/php
         sudo apt-get update
-        sudo apt-get -y install php7.3
+        sudo apt-get -y install php5.6
         php_packages=(php-cli php-cgi php-soap php-xml php-common php-json php-mysql php-mbstring php-mcrypt php-zip php-fpm php-gd)
         sudo apt-get -y install ${php_packages[@]}
         sudo a2enmod proxy_fcgi setenvif
-        sudo a2enconf php7.3-fpm
+        sudo a2enconf php5.6-fpm
     else
         echo "PHP packages are already installed!"
     fi
+}
+
+switching_php_version_to_5.6()
+{
+    sudo update-alternatives --set php /usr/bin/php5.6
+    sudo update-alternatives --set phar /usr/bin/phar5.6
+    sudo update-alternatives --set phar.phar /usr/bin/phar.phar5.6 
 }
 
 install_composer()
@@ -93,6 +100,12 @@ echo "###########################"
 echo "Installing PHP packages..."
 echo "###########################"
 install_php_packages
+echo "###########################" 
+
+echo "###########################"
+echo "Switching PHP version to 5.6..."
+echo "###########################"
+switching_php_version_to_5.6
 echo "###########################" 
 
 echo "###########################"
