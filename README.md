@@ -39,7 +39,7 @@ vagrant ssh
 
 ## Authors
 
-* **Marcos Couto**.
+* **Marcos Felipe**.
 
 See also the list of [contributors](https://github.com/felpscouto/basic-laravel-php-dev-environment) who participated in this project.
 
