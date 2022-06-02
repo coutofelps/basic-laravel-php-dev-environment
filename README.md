@@ -21,7 +21,7 @@ Vagrant by Hashicorp - the latest version can be found in https://www.vagrantup.
 Create a directory named "VM". At same level of VM directory, create a new named "code". Then, pull the project into the folder:
 
 ```
-git clone https://github.com/marcoscouto10/virtualbox-machine.git
+git clone https://github.com/felpscouto/virtualbox-machine.git
 ```
 
 Now, you need to execute some Vagrant commands to up the virtual machine:
